@@ -24,7 +24,7 @@ public class StartTest4Main {
 
         @Override
         public void run() {
-            while (true) { // 무한 루프
+            while (true) { // 무한 루프 !
                 log(content);
                 try {
                     Thread.sleep(sleepMs);
