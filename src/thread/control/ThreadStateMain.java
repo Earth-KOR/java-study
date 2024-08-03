@@ -21,7 +21,7 @@ public class ThreadStateMain {
         @Override
         public void run() {
             try {
-                log("start");
+                log("start!");
                 log("myThread.state2 = " + Thread.currentThread().getState()); // RUNNABLE
 
                 log("sleep() start");
